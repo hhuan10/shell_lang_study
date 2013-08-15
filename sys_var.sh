@@ -9,5 +9,16 @@ echo "HOME"     is $HOME
 echo "LOGNAME"  is $LOGNAME
 echo "PATH"     is $PATH
 echo "USERNAME" is $USERNAME
+echo "SET"      is $SET
 
-exit 0
+udv_var="user defined parameter"
+echo $udv_var 
+
+## division - how to use expr operation ##
+
+x=20
+y=3
+z=`expr $x + $y`
+echo $z
+
+exit 0 
